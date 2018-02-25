@@ -1,0 +1,16 @@
+{
+  "name": "split",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "solc": "^0.4.20",
+    "web3": "^1.0.0-beta.30"
+  }
+}
