@@ -42,6 +42,8 @@ discordClient.on("message", async message => {
     donateAddr = "0xA2C7779077Edc618C926AB5BA7510877C187cd92";
   } else if (donate == "default") {
     donateAddr = "0xCDc7A9C589658fD31fb7ACd3765f02118e4C15Ff";
+  } else if (donate == "contrib") {
+    donateAddr = "0xe3ecbf9ad12bf63b94fd4f7bc3dc7fcfc56e66ce";
   } else {
     message.reply(`${message.author.tag} Unknown donation target.`);
     return;
